@@ -26,4 +26,5 @@
 <style lang="scss">
   @use "./style/main.scss" as *;
   
+  
 </style>
