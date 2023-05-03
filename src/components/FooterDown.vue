@@ -15,11 +15,11 @@
         <div class="social">
             <div class="follow">follow us</div>
             <div class="icons">
-                <img src="../../public/img/footer-facebook.png" alt="">
-                <img src="../../public/img/footer-twitter.png" alt="">
-                <img src="../../public/img/footer-youtube.png" alt="">
-                <img src="../../public/img/footer-pinterest.png" alt="">
-                <img src="../../public/img/footer-periscope.png" alt="">
+                <a href=""><img src="../../public/img/footer-facebook.png" alt=""></a>
+                <a href=""><img src="../../public/img/footer-twitter.png" alt=""></a>
+                <a href=""><img src="../../public/img/footer-youtube.png" alt=""></a>
+                <a href=""><img src="../../public/img/footer-pinterest.png" alt=""></a>
+                <a href=""><img src="../../public/img/footer-periscope.png" alt=""></a>
             </div>
         </div>
     </div>
@@ -43,16 +43,22 @@
             font-size: 3rem;
             text-transform: uppercase;
             color: white;
+            &:hover{
+                border: 6px solid #4da3f9;
+                background-color: #5c5c5c;
+                font-size: 3.1rem;
+            }
         }
         .social{
             display: flex;
-            width: 40%;
+            width: 30%;
             .follow{
                 font-size: 3.5rem;
                 text-transform: uppercase;
                 color: #0C7CEC;
             }
             .icons{
+                padding-left: 20px;
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
