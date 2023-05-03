@@ -83,7 +83,11 @@
                     list-style: none;
                     a{
                         text-decoration: none;
+                        font-size: 1.3rem;
                         color: rgb(133, 133, 133);
+                        &:hover{
+                            color: rgb(252, 252, 252);
+                        }
                     }
                 }
             }
